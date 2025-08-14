@@ -50,3 +50,32 @@ int main(){
 }
 
 
+//Output:
+//Enter the member name:
+//Mahi
+//Enter the car name:
+//Honda_City
+//Enter the brand name:
+//Honda
+//Enter the price of the car:
+//100000
+//Enter the car launch year:
+//2014
+//Mahi
+//Honda_City
+//Honda
+//2014
+//
+//Enter the member name:
+//Palak_Soni
+//Enter the car name:
+//Mercedes_Benz
+//Enter the brand name:
+//Mercedes
+//Enter the price of the car:
+//6000000
+//Enter the car launch year:2018
+//Palak_Soni
+//Mercedes_Benz
+//Mercedes
+//2018
