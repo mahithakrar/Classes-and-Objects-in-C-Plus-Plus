@@ -1,0 +1,51 @@
+//NAME:MAHI THAKRAR
+//PRN:24070123056
+//ENTC A3
+//EXPERIMENT-11
+
+#include <iostream>
+using namespace std;
+    
+class Calculator{
+    public:
+    int a;
+    int b;
+    
+    void addition(){
+        int add=a+b;
+        cout<<"The addition of the two numbers is:"<<add<<endl;
+    }
+    
+    void subtraction(){
+        int sub=a-b;
+        cout<<"The subtraction of the two numbers is:"<<sub<<endl;
+    }
+    
+    void multiplication(){
+        int mult=a*b;
+        cout<<"The multiplication of the two numbers is:"<<mult<<endl;
+    }
+    
+    void division(){
+        int div=a/b;
+        cout<<"The division of the two numbers is:"<<div<<endl;
+    }    
+};
+
+int main(){
+    Calculator c1;
+    cout<<"Enter the first number:"<<endl;
+    cin>>c1.a;
+    cout<<"Enter the second number:"<<endl;
+    cin>>c1.b;
+    
+    c1.addition();
+    c1.subtraction();
+    c1.multiplication();
+    c1.division();
+
+    return 0;
+}
+
+
+//Output:
