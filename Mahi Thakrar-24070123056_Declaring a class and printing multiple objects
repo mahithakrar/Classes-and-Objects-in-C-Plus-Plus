@@ -1,0 +1,56 @@
+//NAME:MAHI THAKRAR
+//PRN:24070123056
+//ENTC A3
+//EXPERIMENT-11
+
+#include <iostream>
+using namespace std;
+    
+class Student{
+    public:
+    string name;
+    string branch;
+    string subject;
+    string year;
+    float result;
+};
+
+int main(){
+    Student s1;
+    s1.name="Mahi Thakrar";
+    s1.branch="E&TC";
+    s1.subject="C++";
+    s1.year="Second Year";
+    s1.result=7.5;
+    cout<<s1.name<<endl;
+    cout<<s1.branch<<endl;
+    cout<<s1.subject<<endl;
+    cout<<s1.year<<endl;
+    cout<<s1.result<<endl<<"\n";
+    
+    Student s2;
+    s2.name="Pal Jain";
+    s2.branch="E&TC";
+    s2.subject="C++";
+    s2.year="Second Year";
+    s2.result=8.0;
+    cout<<s2.name<<endl;
+    cout<<s2.branch<<endl;
+    cout<<s2.subject<<endl;
+    cout<<s2.year<<endl;
+    cout<<s2.result<<endl;
+}
+
+
+//Output:
+//Mahi Thakrar
+//E&TC
+//C++
+//Second Year
+//7.5
+//
+//Pal Jain
+//E&TC
+//C++
+//Second Year
+//8
