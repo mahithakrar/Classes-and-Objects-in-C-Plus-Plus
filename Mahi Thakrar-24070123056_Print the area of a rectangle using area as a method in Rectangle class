@@ -1,0 +1,47 @@
+//NAME:MAHI THAKRAR
+//PRN:24070123056
+//ENTC A3
+//EXPERIMENT-11
+
+#include <iostream>
+using namespace std;
+    
+class rectangle{
+    public:
+    float length;
+    float width;
+    
+    void area(){
+        double area=length*width;
+        cout<<"The area of the rectangle is:"<<area<<endl;
+    }
+};
+
+int main(){
+    rectangle r1;
+    cout<<"Enter the length:"<<endl;
+    cin>>r1.length;
+    cout<<"Enter the width:"<<endl;
+    cin>>r1.width;
+    
+    if(r1.length==r1.width){
+        cout<<"It is a square"<<endl;
+    }
+    else{
+        r1.area();
+    }
+    return 0;
+}
+
+
+//Output:
+//Enter the length:
+//2.2
+//Enter the width:
+//4
+//The area of the rectangle is:8.8
+//Enter the length:
+//2
+//Enter the width:
+//2
+//It is a square
