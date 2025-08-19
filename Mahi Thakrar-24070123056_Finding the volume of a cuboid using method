@@ -1,0 +1,43 @@
+//NAME:MAHI THAKRAR
+//PRN:24070123056
+//ENTC A3
+//EXPERIMENT-11
+
+#include <iostream>
+using namespace std;
+
+class MyClass {
+public:
+    int height=20;
+    int width=6;
+    int length=15;
+    void myVolume(); 
+    
+    void Volume(){
+    cout << height*width*length;
+    }
+};
+
+
+void MyClass::myVolume() {
+    cout << height*width*length;
+}
+
+int main() {
+    
+    
+    MyClass M1;
+
+    M1.Volume();
+    
+    cout<<endl;
+    
+    M1.myVolume();
+
+    return 0;
+}
+
+
+//Output:
+//1800
+//1800
