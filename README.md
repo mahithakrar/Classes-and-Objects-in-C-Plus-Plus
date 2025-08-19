@@ -1,6 +1,5 @@
 # Classes-and-Objects-in-C-Plus-Plus
 
-#  Classes and Objects in C++
 
 ##  Overview
 In C++, **classes and objects** are the core concepts of **Object-Oriented Programming (OOP)**.  
